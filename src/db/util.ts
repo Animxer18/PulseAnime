@@ -3,7 +3,7 @@ import { month } from "../../util/utility";
 
 export const backendUrl = process.env.NEXT_PUBLIC_DB_HOST ?? 'http://127.0.0.1:3173';
 // export const backendUrl = 'https://pulseanime-be.vercel.app';
-export const corsUrl = 'https://pulseanime-cors.vercel.app/api';
+export const corsUrl = 'https://animxer-api-cvxg.vercel.app';
 
 
 export function splitIntoParagraphs(sentence:string) {
